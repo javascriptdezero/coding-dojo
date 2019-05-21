@@ -11,7 +11,8 @@
         "--runInBand",
         "--colors",
         "--noStackTrace",
-        "${fileBasenameNoExtension}"
+        "--findRelatedTests",
+        "${relativeFile}",
       ],
       // Exécute le test dans l'onglet Terminal au lieu de la console de déboguage
       // pour avoir de belles couleurs !
