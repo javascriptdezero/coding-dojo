@@ -1,0 +1,21 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Tester",
+      "program": "${workspaceFolder}/node_modules/.bin/jest",
+      // Voir https://jestjs.io/docs/en/cli pour comprendre les arguments ci-dessous
+      "args": [
+        "--runInBand",
+        "--colors",
+        "--noStackTrace",
+        "${fileBasenameNoExtension}"
+      ],
+      // Exécute le test dans l'onglet Terminal au lieu de la console de déboguage
+      // pour avoir de belles couleurs !
+      "console": "integratedTerminal",
+    }
+  ]
+}

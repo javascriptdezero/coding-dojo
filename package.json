@@ -1,0 +1,26 @@
+{
+  "name": "coding-dojo",
+  "version": "1.0.0",
+  "description": "Exercices en Français pour apprendre le JavaScript (javascriptdezero.com)",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/javascriptdezero/coding-dojo.git"
+  },
+  "keywords": [
+    "javascript",
+    "exercices",
+    "apprendre",
+    "francais",
+    "formation"
+  ],
+  "author": "Jérémy Mouzin",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/javascriptdezero/coding-dojo/issues"
+  },
+  "homepage": "https://github.com/javascriptdezero/coding-dojo#readme",
+  "devDependencies": {
+    "jest": "^24.8.0"
+  }
+}
