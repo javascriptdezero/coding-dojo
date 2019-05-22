@@ -12,14 +12,14 @@ Pour faire l'exercice 0 par exemple :
 1. Ouvrez le fichier `enonce-exercice-0.md` et lisez l'énoncé
 2. Ouvrez le fichier `exercice-0.js`
 3. Rédigez le code répondant à l'énoncé
-4. Testez votre solution avec `Ctrl + F5`
+4. Testez votre solution avec `Ctrl + F5` (ou allez dans le menu Déboguer > Démarrer sans débogage)
 
 # Comment déboguer un exercice ?
 
 Pour déboguer l'exercice 0 par exemple :
 1. Ouvrez le fichier `exercice-0.js`
 2. Placez un point d'arrêt dans ce fichier
-3. Déboguez avec `F5`
+3. Déboguez avec `F5` (ou allez dans le menu Déboguer > Démarrer le débogage)
 4. Les tests vont s'exécuter les uns après les autres, dans l'ordre de leur écriture dans le fichier `exercice-0.test.js`.
 
 # ❤️ Vous aimez le Coding Dojo ?
