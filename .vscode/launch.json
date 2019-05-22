@@ -5,7 +5,7 @@
       "type": "node",
       "request": "launch",
       "name": "Tester",
-      "program": "${workspaceFolder}/node_modules/.bin/jest",
+      "program": "${workspaceFolder}/node_modules/jest/bin/jest.js",
       // Voir https://jestjs.io/docs/en/cli pour comprendre les arguments ci-dessous
       "args": [
         "--runInBand",
