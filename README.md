@@ -28,3 +28,39 @@ La plupart des exercices disponibles dans ce Coding Dojo sont la traduction d'ex
 Les sites anglais utilisés comme source d'exercices sont les suivants :
 - [exercism.io](https://exercism.io/)
 - [codingdojo.org](http://codingdojo.org/kata/)
+
+# Contributions
+
+N'hésitez pas à contribuer et à m'envoyer vos exercices/sites préférés par email ou via [Twitter](https://twitter.com/JeremyMouzin), ou carrément via une Pull Request sur GitHub, je les intégrerai avec plaisir 👌.
+
+J'ai rédigé un script qui génère automatiquement les fichiers de base pour ajouter un nouvel exercice facilement !
+
+Pour afficher la documentation du script, depuis la racine du dépôt, dans une console, tapez :
+
+```
+$ node .scripts/generer-exercice.js 
+```
+
+Voici la documentation :
+
+```
+Merci d'indiquer le niveau de difficulté d'un exercice par une lettre :
+f = facile, m = moyen, d = difficile, e = expert
+
+Utilisation : node .scripts/generer-exercice.js f|m|d|e
+
+Exemple d'ajout d'un exercice de niveau moyen :
+node .scripts/generer-exercice.js m
+```
+
+Exemple d'ajout d'un nouvel exercice de niveau facile (lettre f) :
+```
+$ node .scripts/generer-exercice.js f
+
+Ajout d'un exercice de niveau facile...
+Génération du fichier enonce-exercice-3.md...
+Génération du fichier exercice-3.js...
+Génération du fichier exercice-3.test.js...
+Terminé :) !
+Il ne reste plus qu'à remplir ces fichiers... Merci !
+```
