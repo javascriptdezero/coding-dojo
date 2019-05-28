@@ -3,7 +3,7 @@ function exercice3(n) {
 }
 
 function nombreEstPair(nombre) {
-  // On verra l'opérateur module '%' dans le module intermédiaire !
+  // On verra l'opérateur modulo '%' dans le module intermédiaire !
   return nombre % 2 === 0;
 }
 
