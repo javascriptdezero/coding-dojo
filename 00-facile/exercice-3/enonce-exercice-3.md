@@ -4,7 +4,7 @@
 
 La conjecture de Syracuse ou le problème 3x + 1 peut être résumé comme ceci :
 
-Prenez un nombre entier positif `n`. Si `n` est pair, divisez les par 2 pour obtenir `n / 2`. Si `n` est impair, multipliez-le par 3 et ajoutez 1 pour obtenir `(3 * n) + 1`.
+Prenez un nombre entier positif `n`. Si `n` est pair, divisez-le par 2 pour obtenir `n / 2`. Si `n` est impair, multipliez-le par 3 et ajoutez 1 pour obtenir `n * 3 + 1`.
 
 Répétez ce processus indéfiniment. La conjecture établit que peu importe le nombre avec lequel vous commencez, vous finirez toujours par atteindre 1.
 
