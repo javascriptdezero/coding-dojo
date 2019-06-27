@@ -16,9 +16,10 @@ Voici les règles de construction d'un chiffre Romain :
 - Le nombre `100` s'écrit `C`
 - Le nombre `500` s'écrit `D`
 - Le nombre `1000` s'écrit `M`
-- Lorsqu'on écrit un nombre inférieur après un nombre supérieur, cela indique une addition. Par exemple le nombre `6` s'écrit `VI`. On fait l'addition `V` (5) + `I` (1) = 6.
-- Lorsqu'on écrit un nombre inférieur juste avant un nombre supérieur, cela indique une soustraction. Par exemple le nombre `4` s'écrit `IV`. On fait la soustraction `V` (5) - `I` (1) = 4.
-- Par conséquent, les dix premiers nombres s'écrivent `I`, `II`, `III`, `IV`, `V`, `VI`, `VII`, `VIII`, `IX`, `X`
+- Lorsqu'on écrit deux lettres de suite, si la valeur numérique de la première est supérieure à la valeur numérique de la seconde, on ajoute leurs valeurs numériques. Par exemple le nombre `6` s'écrit `VI`. On fait l'addition `V` (5) + `I` (1) = 6.
+- Lorsqu'on écrit deux lettres de suite, si la valeur numérique de la première est inférieure à la valeur numérique de la seconde, on soustrait la valeur de la première à la seconde. Par exemple le nombre `4` s'écrit `IV`. On fait la soustraction `V` (5) - `I` (1) = 4.
+- Les soustractions de valeurs sont limitées à 2 lettres uniquement. Par exemple on ne peut **pas** écrire `8` en faisant `IIX`. On doit utiliser l'addition des lettres comme ceci `VIII`.
+- Par conséquent, les dix premiers nombres s'écrivent `I`, `II`, `III`, `IV`, `V`, `VI`, `VII`, `VIII`, `IX`, `X`. Les nombres plus grands suivent le même modèle.
 - On peut associer autant de symboles qu'on veut pour écrire de plus grands nombres, par exemple :
   - `36` s'écrit `XXXVI`
   - `42` s'écrit `XLII`
