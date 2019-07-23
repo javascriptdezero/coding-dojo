@@ -39,7 +39,7 @@ Voici les règles de construction d'un chiffre Romain :
 - `93` => `XCIII` 
 - `141` => `CXLI` 
 - `163` => `CLXIII` 
-- `163` => `CCCLXIX` 
+- `369` => `CCCLXIX` 
 - `402` => `CDII` 
 - `575` => `DLXXV` 
 - `911` => `CMXI` 
