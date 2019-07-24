@@ -36,13 +36,15 @@ Voici les règles de construction d'un chiffre Romain :
 - `27` => `XXVII` 
 - `48` => `XLVIII` 
 - `59` => `LIX` 
-- `93` => `XCIII` 
+- `93` => `XCIII`
+- `99` => `XCIX` 
 - `141` => `CXLI` 
 - `163` => `CLXIII` 
 - `369` => `CCCLXIX` 
 - `402` => `CDII` 
 - `575` => `DLXXV` 
-- `911` => `CMXI` 
+- `911` => `CMXI`
+- `999` => `CMXCIX` 
 - `1024` => `MXXIV` 
 - `2751` => `MMDCCLI` 
 - `3000` => `MMM` 
