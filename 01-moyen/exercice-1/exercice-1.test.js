@@ -24,7 +24,7 @@ test("gestion des majuscules dans la liste, pour 'marche' et ['chArmE', 'CouRir'
   expect(exercice1('marche', ['chArmE', 'CouRir', 'MacHer'])).toEqual(['chArmE', 'MacHer']);
 });
 
-test("pour 'marche' et ['marche Marche MaRchE'] : aucune anagramme", () => {
+test("pour 'marche' et ['marche', 'Marche', 'MaRchE'] : aucune anagramme", () => {
   expect(exercice1('marche', ['marche Marche MaRchE'])).toEqual([]);
 });
 
