@@ -1,6 +1,6 @@
 # Comment installer et utiliser le Coding Dojo ?
 
-J'explique tout dans [cette vidéo](https://www.youtube.com/watch?v=jcNYk3pq098).
+J'explique tout dans [cette vidéo](https://www.youtube.com/watch?v=jcNYk3pq098&list=PLyj4q0fkISxAPhSShp5dlNSYNAKXGDiPd).
 
 # Objectifs du Coding Dojo
 
