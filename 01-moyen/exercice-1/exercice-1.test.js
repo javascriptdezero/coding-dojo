@@ -25,7 +25,7 @@ test("gestion des majuscules dans la liste, pour 'marche' et ['chArmE', 'CouRir'
 });
 
 test("pour 'marche' et ['marche', 'Marche', 'MaRchE'] : aucune anagramme", () => {
-  expect(exercice1('marche', ['marche Marche MaRchE'])).toEqual([]);
+  expect(exercice1('marche', ['marche','Marche','MaRchE'])).toEqual([]);
 });
 
 test("Les anagrammes doivent utiliser toutes les lettres une seule fois : pour 'tappe' et ['patte'] : aucune anagramme", () => {
