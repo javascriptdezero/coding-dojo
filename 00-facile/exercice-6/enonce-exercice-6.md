@@ -2,7 +2,7 @@
 
 ## FizzBuzz
 
-Rédigez une fonction qui retourne, sous forme de chaine de caractères, les nombres de 1 à 200 dans l’ordre, en remplaçant :
+Rédigez une fonction qui retourne, sous la forme d'une chaîne de caractères, les nombres de 1 à 200 dans l’ordre, en remplaçant :
 
 * les multiples de 3 par le mot Fizz
 * les multiples de 5 par le mot Buzz
@@ -10,7 +10,7 @@ Rédigez une fonction qui retourne, sous forme de chaine de caractères, les nom
 
 Les différents mots devront être séparés par des " - ".
 
-Attention, l'exercice n'est pas si simple qu'il n'y parait...
+Attention, l'exercice n'est pas si simple qu'il n'y paraît...
 
 ## Exemple
 
