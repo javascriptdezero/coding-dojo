@@ -1,8 +1,3 @@
-/**
- * @param {string} phrase
- * @param {string} decalage
- * @returns {string}
- */
 function exercice7(phrase, decalage) {
 
 }
