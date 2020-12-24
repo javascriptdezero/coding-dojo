@@ -13,7 +13,7 @@ Créez une fonction qui renverra la phrase après avoir décalé l'alphabet.
 
 La fonction prendra les paramètres suivants :
 
-- `phrase`: une chaîne de caractère (tout en majuscule) sans espaces
+- `phrase`: une chaîne de caractère (tout en majuscules)
 - `decalage`: un entier, le décalage dans l'alphabet
   - Si c'est un nombre **positif** alors on décale l'alphabet vers la **droite**
   - Si c'est un nombre **négatif** alors on décale l'alphabet vers la **gauche**
@@ -21,5 +21,6 @@ La fonction prendra les paramètres suivants :
 ## Exemples
 
 - `exercice7('HEY', 5)`, la fonction retournera `'MJD'`
-
-Vous pouvez voir d'autres exemples dans le fichier des tests : `exercice-7.test.js`.
+- `exercice7('CODING DOJO', 0)`, la fonction retournera `'CODING DOJO'`
+- `exercice7('JAVASCRIPT', -11)`, la fonction retournera `'YPKPHRGXEI'`
+- `exercice7('ANTHONY', -2)`, la fonction retournera `'YLRFMLW'`
