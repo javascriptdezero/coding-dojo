@@ -9,7 +9,7 @@ test("exercice7('THE QUICK BROWN FOX JUMPS OVER THE LAZY DOG', -23) devrait reto
 });
 
 test("exercice7('PROGRAMMING CHALLENGES IS AWESOME', -12) devrait retourner 'DFCUFOAAWBU QVOZZSBUSG WG OKSGCAS'", () => {
-  expect(exercice7('PROGRAMMING CHALLENGES IS AWESOME', 12)).toBe('DFCUFOAAWBU QVOZZSBUSG WG OKSGCAS');
+  expect(exercice7('PROGRAMMING CHALLENGES IS AWESOME', -12)).toBe('DFCUFOAAWBU QVOZZSBUSG WG OKSGCAS');
 });
 
 test("exercice7('JVUNYHABSHAPVUZ', -19) devrait retourner 'QCBUFOHIZOHWCBG'", () => {
