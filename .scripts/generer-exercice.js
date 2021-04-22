@@ -1,5 +1,5 @@
-const path = require('path');
-const fs = require('fs');
+import path from 'path';
+import fs from 'fs';
 
 // Si le script est renommé ou change de dossier, on récupère les infos dynamiquement
 const [ , cheminAbsoluDuScript, lettreNiveauDifficulte] = process.argv;
@@ -77,7 +77,7 @@ function chercherDossierNiveauDifficulte(cheminAbsolu, niveauDifficulte) {
       repertoireCourant = path.dirname(repertoireCourant);
     }
   } while (repertoireCourant !== path.sep || repertoireCourant.length === 0);
-  
+
   // Si on arrive ici, c'est qu'on n'a pas trouvé le dossier !
   return null;
 }
@@ -97,7 +97,7 @@ function calculerNumeroProchainExercice(dossier) {
   if (listeDossiersExercices.length === 0) {
     return 0;
   }
-  
+
   // On récupère les nombres de tous les dossiers
   listeNumeros = listeDossiersExercices.reduce(function(acc, nomRepertoire) {
     const dernierePartieDuNom = nomRepertoire.split('-').pop();
@@ -131,14 +131,11 @@ function creerFichiersNouvelExercice(cheminAbsoluDossierNouvelExercice, numeroEx
 ## Exemples
 - `;
 
-  const contenuFichierJavaScript = `function exercice${numeroExercice}() {
-  
-}
+  const contenuFichierJavaScript = `export function exercice${numeroExercice}() {
 
-// Ne touchez pas à la ligne suivante
-module.exports = exercice${numeroExercice};`;
+}`;
 
-  const contenuFichierTest = `const exercice${numeroExercice} = require('./exercice-${numeroExercice}');
+  const contenuFichierTest = `import { exercice${numeroExercice} } from './exercice-${numeroExercice}.js';
 
 test('', () => {
   expect(exercice${numeroExercice}()).toBe();

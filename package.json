@@ -2,7 +2,7 @@
   "name": "coding-dojo",
   "version": "1.0.0",
   "description": "Exercices en Français pour apprendre le JavaScript (javascriptdezero.com)",
-  "main": "index.js",
+  "type": "module",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/javascriptdezero/coding-dojo.git"
@@ -21,6 +21,6 @@
   },
   "homepage": "https://github.com/javascriptdezero/coding-dojo#readme",
   "devDependencies": {
-    "jest": "^24.8.0"
+    "jest": "^26.6.3"
   }
 }

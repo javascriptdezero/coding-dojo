@@ -7,6 +7,7 @@
       "name": "Tester",
       "program": "${workspaceFolder}/node_modules/jest/bin/jest.js",
       // Voir https://jestjs.io/docs/en/cli pour comprendre les arguments ci-dessous
+      "runtimeArgs": ["--experimental-vm-modules"],
       "args": [
         "--runInBand",
         "--colors",
